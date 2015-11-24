@@ -24,6 +24,9 @@ use yii\widgets\Breadcrumbs;
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   
   <!-- CSS  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
+  <link href="assets/4e76f31c/css/bootstrap.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
    <link href="css/site.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -43,6 +46,7 @@ use yii\widgets\Breadcrumbs;
 				'items' => [
                                 ['label' => 'Home', 'url' => ['site/index']],   
 				['label' => 'Resources', 'url' => ['site/resources']],
+                                ['label' => 'Events', 'url' => ['site/events']],
 				['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
 				],
 				]);
@@ -51,10 +55,20 @@ use yii\widgets\Breadcrumbs;
         <div class="search-results"></div>
         </div> --->
           
-          <img src="images/targethalf.png">
+          <a href="#" class="search-toggle"><i class="fa fa-search"></i></a>
           
+          <img src="images/targethalf.png">
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
       </div>
+        
+        <div class="search-wrapper" style="display: none;">
+          <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+          </span>
+        </div>
+        </div>
     </div>
   </nav>
  
@@ -93,7 +107,7 @@ use yii\widgets\Breadcrumbs;
           
            <div class="col s0">
           <h5 class="white-text"></h5>
-          <ul>
+          <ul class="social-media">
               <li><a class="white-text" href="#!"><img src="images/instagram.png"></a></li>
             <li><a class="white-text" href="#!"><img src="images/youtube.png"></a></li>
             <li><a class="white-text" href="#!"><img src="images/google.png"></a></li>
@@ -102,7 +116,7 @@ use yii\widgets\Breadcrumbs;
           
         <div class="col s1">
           <h5 class="white-text"></h5>
-          <ul>
+          <ul class="social-media">
               <li><a class="white-text" href="#!"><img src="images/facebook.png"></a></li>
             <li><a class="white-text" href="#!"><img src="images/twitter.png"></a></li>
             <li><a class="white-text" href="#!"><img src="images/linkedin.png"></a></li>
@@ -131,6 +145,37 @@ use yii\widgets\Breadcrumbs;
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+  
+  <script>
+      $(".search-toggle").click(function() {
+          $(".search-wrapper").slideToggle().toggleClass("active");
+          
+          return 0;
+      });
+      
+      $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        var wrapper = $(".search-wrapper");
+        
+        if (scroll > 64) {
+            wrapper.slideUp();
+        }
+        
+        if (scroll <= 64) {
+            wrapper.slideDown();
+        }
+      });
+      
+      $(".front-carousel .carousel-init").slick({
+          dots: true,
+          fade: true,
+          nextArrow: false,
+          prevArrow: false
+      });
+      
+      $(".slick-dots li button").addClass("btn-floating waves-effect waves-light red");
+  </script>
   
   <?php $this->endBody() ?>
   </body>

@@ -3,7 +3,7 @@
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
- */
+ */font-face
 html {
   font-family: sans-serif;
   /* 1 */
@@ -4444,7 +4444,7 @@ img.circle {
 
 @media only screen and (min-width : 992px) {
   .container {
-    width: 70%; }
+    width: 70%;}
  }
 
 .container .row {
@@ -4722,7 +4722,7 @@ nav {
     position: relative;
     height: 100%; }
   nav a {
-    color: #fff; }
+    color: #344c5a; }
   nav a.button-collapse {
     float: left;
     position: relative;
@@ -7190,3 +7190,71 @@ ul.table-of-contents a {
   .picker--time .picker__box {
     margin-bottom: 5em; }
  }
+
+ 
+ .slick-dots {
+     
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    bottom: 12px;
+ }
+ 
+  .slick-dots li {
+     list-style-type: none;
+     display: inline-block;
+     padding: 0 4px;
+     border-radius: 50%;
+     background: #fff;
+     position: relative;
+     top: 0;
+     transition: all .3s;
+  }
+  
+  .slick-dots li button {
+      border: none;
+      box-shadow: none;
+      text-indent: -9999px;
+      background-color: #8b999e !important;
+  }
+   .slick-dots li button:focus,
+   .slick-dots li button:active,
+   .slick-dots li button:hover {
+        outline: none
+   }
+  
+  .slick-dots li.slick-active {
+      top: -10px;
+  }
+  
+  .jumbotron {
+      outline: none !important;
+  }
+  
+  
+  .social-media li {
+      margin-bottom: 5px;
+  }
+  
+  .search-toggle {
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+  
+  nav ul.right {
+      margin-right: 40px;
+  }
+  
+  .jumbotron {
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+  
+  
+  .container-padding{
+      padding-top:88px;
+  }

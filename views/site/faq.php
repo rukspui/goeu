@@ -8,7 +8,7 @@ $this->title = 'FAQ';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-faq">
-    <div class="container">
+    <div class="container container-padding">
     <h1><?= Html::encode($this->title) ?></h1>
 <div class="content-faq">
     <p>

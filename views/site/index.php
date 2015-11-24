@@ -6,20 +6,59 @@ $this->title = 'Go EU';
 ?>
 <div class="site-index">
 
-    <div class="jumbotron">
-     
-        <div class="container">
-               <div class="jumbotron-images">
-            <img src=></a>
-        </div>
-        <h1>Congratulations!</h1>
+    
+    <div class="front-carousel">
+        <div class="carousel-init">
+            <div class="jumbotron">
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+                <div class="container">
+                       <div class="jumbotron-images">
+                    <img src=></a>
+                </div>
+                <h1>Congratulations! 1</h1>
 
-        <div class="row center">
-        <a href="index.php?r=site%2Flogin" id="download-button" class="btn-large waves-effect waves-light orange">Get started</a>
-      <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Learn more</a>
-      </div>
+                <p class="lead">You have successfully created your Yii-powered application.</p>
+
+                <div class="row center">
+                <a href="index.php?r=site%2Flogin" id="download-button" class="btn-large waves-effect waves-light orange">Get started</a>
+              <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Learn more</a>
+              </div>
+                </div>
+            </div>
+            
+            <div class="jumbotron">
+
+                <div class="container">
+                       <div class="jumbotron-images">
+                    <img src=></a>
+                </div>
+                <h1>Congratulations! 2</h1>
+
+                <p class="lead">You have successfully created your Yii-powered application.</p>
+
+                <div class="row center">
+                <a href="index.php?r=site%2Flogin" id="download-button" class="btn-large waves-effect waves-light orange">Get started</a>
+              <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Learn more</a>
+              </div>
+                </div>
+            </div>
+            
+            <div class="jumbotron">
+
+                <div class="container">
+                       <div class="jumbotron-images">
+                    <img src=></a>
+                </div>
+                <h1>Congratulations! 3</h1>
+
+                <p class="lead">You have successfully created your Yii-powered application.</p>
+
+                <div class="row center">
+                <a href="index.php?r=site%2Flogin" id="download-button" class="btn-large waves-effect waves-light orange">Get started</a>
+              <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Learn more</a>
+              </div>
+                </div>
+            </div>
         </div>
     </div>
 

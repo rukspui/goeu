@@ -107,4 +107,9 @@ class SiteController extends Controller
         return $this->render('privacy');
     }
     
+       public function actionEvents()
+    {
+        return $this->render('events');
+    }
+    
 }

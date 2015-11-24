@@ -4,13 +4,13 @@
 
 use yii\helpers\Html;
 
-$this->title = 'Privacy Policy';
+$this->title = 'About';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-privacy">
-    <div class="container container-padding">
+<div class="site-about">
+    <div class="container">
     <h1><?= Html::encode($this->title) ?></h1>
-<div class="content-privacy">
+<div class="content-about">
     <p>
         Youth unemployment presents a pressing problem in the European Union.
         The social and economic impact of youth unemployment can hardly be measured therefore Europe urgently has to act. </p>

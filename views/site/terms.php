@@ -8,7 +8,7 @@ $this->title = 'Terms and Conditions';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-terms">
-    <div class="container">
+    <div class="container container-padding">
     <h1><?= Html::encode($this->title) ?></h1>
 <div class="content-terms">
     <p>
