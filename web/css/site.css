@@ -104,7 +104,38 @@ nav.light-blue {
     color:white;
 }
 
-.nav-wrapper img {
-    height: 65px;
-    margin-left: 89PX;
+.tedVideoResults  div.youtubeResult {
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.tedVideoResults .resultsWrapper {
+    max-height: 200px;
+    width: auto;
+    cursor: pointer;
+
+}
+
+div.youtubeResult  img {
+    height: 200px;
+    display: inline-block;
+    
+}
+
+div.youtubeResult span.title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    height: 44px;
+    padding: 4px;
+}
+
+.tedVideoResults {
+    display: block;
+    height: 220px;
+    overflow-y: hidden;
+    background: #000;
 }

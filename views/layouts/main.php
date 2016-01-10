@@ -46,14 +46,12 @@ use yii\widgets\Breadcrumbs;
 				'items' => [
                                 ['label' => 'Home', 'url' => ['site/index']],   
 				['label' => 'Resources', 'url' => ['site/resources']],
-                                ['label' => 'Events', 'url' => ['site/events']],
+                                ['label' => 'Get Inspired', 'url' => ['site/events']],
 				['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
 				],
 				]);
 				?>
-        <!--- <div class="search"><input id="search"><i class="material-icons">search</i>
-        <div class="search-results"></div>
-        </div> --->
+
           
           <a href="#" class="search-toggle"><i class="fa fa-search"></i></a>
           
@@ -162,9 +160,9 @@ use yii\widgets\Breadcrumbs;
             wrapper.slideUp();
         }
         
-        if (scroll <= 64) {
-            wrapper.slideDown();
-        }
+//        if (scroll <= 64) {
+//            wrapper.slideDown();
+//        }
       });
       
       $(".front-carousel .carousel-init").slick({

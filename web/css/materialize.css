@@ -4736,9 +4736,7 @@ nav {
     color: #344c5a;
     display: inline-block;
     font-size: 2.6rem;
-    margin-left: 10px;
-    padding: 0;
-    text-shadow: 1px 1px 3px #ecc747;}
+    padding: 0}
     @media only screen and (max-width : 992px) {
       nav .brand-logo {
         left: 0;

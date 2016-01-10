@@ -112,4 +112,9 @@ class SiteController extends Controller
         return $this->render('events');
     }
     
+    
+        public function actionResources()
+    {
+        return $this->render('resources');
+    }
 }

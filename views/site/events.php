@@ -4,11 +4,11 @@
 
 use yii\helpers\Html;
 
-$this->title = 'About';
+$this->title = 'Get Inspired';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
-    <div class="container">
+    <div class="container container-padding">
     <h1><?= Html::encode($this->title) ?></h1>
 <div class="content-about">
     <p>
@@ -26,11 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
     
     <p>
         Encouraging young people to become entrepreneurs can potentially give a boost to the economy while driving 
-        down the number of jobless youngsters. Each young person who is considering starting up in business could be 
-        an opportunity for EU to get back on track and stay on the track of growth, innovation and development. 
-        However, many opportunities just remain opportunities instead of actions because the information does not 
-        or hardly reach the young people. </p>
-    
+        down the number of jobless youngsters. Each young person who is considering starting up in 
     <p>
         Many young people are not aware of programmes such as Erasmus+ Entrepreneurship that intends to promote young 
         entrepreneurs. These people are afraid of starting their businesses and often find themselves in a situation where 
