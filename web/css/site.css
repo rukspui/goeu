@@ -139,3 +139,8 @@ div.youtubeResult span.title {
     overflow-y: hidden;
     background: #000;
 }
+
+.nav-wrapper img{
+        max-width: 155px;
+    padding-left: 45px;
+}

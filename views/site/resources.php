@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 <div class="content-resources">
     <input type="text" class="searchQuery" />
-    <button onclick="getTedYoutubeVideos()">Get clips</button>
+    <button onclick="getTedYoutubeVideos()"  class="btn btn-primary" waves-effect waves-light orange">Get clips</button>
     
     <div class="tedVideoResults">
         <div class="resultsWrapper"></div>
