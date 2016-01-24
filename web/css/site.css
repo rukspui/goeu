@@ -141,6 +141,12 @@ div.youtubeResult span.title {
 }
 
 .nav-wrapper img{
-        max-width: 155px;
+    max-width: 155px;
     padding-left: 45px;
+}
+
+.youtubeVideoModal iframe{
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
 }

@@ -34,7 +34,8 @@ function getTedYoutubeVideos() {
 
 function openVideo(id) {
     console.log(id);
-    var playerTemplate = '<span>' + id + '</span>';
+    var playerTemplate = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + id + '" frameborder="0" allowfullscreen></iframe>';
+    $('.youtubeVideoModal').empty();
     $('.youtubeVideoModal').append(playerTemplate);
     $('.youtubeVideoModal').show();
     
@@ -44,6 +45,8 @@ function init() {
     console.log('works')
     gapi.client.setApiKey("AIzaSyAt8-mFm8xbhHO1oAsZwH0qAljV9gi8UU4");
     gapi.client.load("youtube", "v3", function() {
-        // yt api is ready
+        getTedYoutubeVideos();
     });
 }
+
+
