@@ -25,9 +25,11 @@ $this->params['breadcrumbs'][] = $this->title;
       <label for="female">female</label>
     </p>
     
-    
+    <div id="date-picker">
     <label for="birthdate" class="">Birthdate</label>
-      <input type="date" class="datepicker">
+      <input id="birthdate" type="text" class="datepicker picker__input" readonly="" tabindex="-1" aria-haspopup="true" aria-expanded="false" aria-readonly="false" aria-owns="birthdate_root">
+      
+    </div>
 
     
     <p>who is a</p>
