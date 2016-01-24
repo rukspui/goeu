@@ -12,13 +12,18 @@ $this->params['breadcrumbs'][] = $this->title;
 		<h1><?= Html::encode($this->title) ?></h1>
 		<div class="content-resources">
 		<input type="text" class="searchQuery" placeholder="Video keywords... (ex: music, science etc.)" />
-			<button onclick="getTedYoutubeVideos()"  class="btn btn-primary" waves-effect waves-light orange>Get clips</button>
+			<button onclick="getAllClips()"  class="btn btn-primary" waves-effect waves-light orange>Get clips</button>
 
-			<div class="tedVideoResults">
+			<div id="tedVideoResults" class="tedVideoResults">
+				<div class="resultsWrapper"></div>
+			</div>
+
+			<br>
+			
+			<div id="vsauce" class="tedVideoResults">
 				<div class="resultsWrapper"></div>
 			</div>
 		</div>
-
 		<div class="youtubeVideoModal">
 
 
