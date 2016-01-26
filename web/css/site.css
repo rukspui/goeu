@@ -141,12 +141,24 @@ div.youtubeResult span.title {
 }
 
 .nav-wrapper img{
-    max-width: 155px;
-    padding-left: 45px;
+    max-width: 200px;
 }
 
 .youtubeVideoModal iframe{
     margin: 0 auto;
     display: block;
     margin-top: 20px;
+}
+
+.jumbotron
+{
+    
+    background: linear-gradient(#007fc9, white);
+
+}
+
+
+
+.jumbotron-images {
+background-image: url("images/graph.png");
 }

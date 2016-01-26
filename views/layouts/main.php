@@ -37,7 +37,7 @@ use yii\widgets\Breadcrumbs;
   <?php $this->beginBody() ?>
   <nav class="light-blue lighten-1" role="navigation">
     <div class="container">
-      <div class="nav-wrapper"><a id="logo-container" href="index.php?r=site%2Findex" class="brand-logo">start IT up</a>
+      <div class="nav-wrapper"><a id="logo-container" href="index.php?r=site%2Findex" class="brand-logo"></a>
 	  		<?php
                         
                         
@@ -55,7 +55,7 @@ use yii\widgets\Breadcrumbs;
           
           <a href="#" class="search-toggle"><i class="fa fa-search"></i></a>
           
-          <img src="images/office.png">
+          <img src="images/logo1.png">
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
       </div>
         

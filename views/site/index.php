@@ -9,12 +9,10 @@ $this->title = 'Go EU';
     
     <div class="front-carousel">
         <div class="carousel-init">
-            <div class="jumbotron">
+            <div class="jumbotron jumbotron1">
 
                 <div class="container">
-                       <div class="jumbotron-images">
-                    <img src=></a>
-                </div>
+                
                 <h1>Everyone is an entrepreneur.</h1>
 
                 <p class="lead">"The only skills you need to be an entrepreneur: an ability to fail, an ability to have ideas, to sell those ideas, to execute on those ideas, and to be persistent so even as you fail you learn and move onto the next adventure." — James Altucher</p>
@@ -23,10 +21,17 @@ $this->title = 'Go EU';
                 <a href="index.php?r=site%2Flogin" id="download-button" class="btn-large waves-effect waves-light orange">Get started</a>
               <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Learn more</a>
               </div>
+                
+                       <div class="jumbotron-images">
+                           
+                    <img src="">
+                    
+                    
+                </div>
                 </div>
             </div>
             
-            <div class="jumbotron">
+            <div class="jumbotron jumbotron2">
 
                 <div class="container">
                        <div class="jumbotron-images">
@@ -34,7 +39,7 @@ $this->title = 'Go EU';
                 </div>
                 <h1>Congratulations! 2</h1>
 
-                <p class="lead">You have successfully created your Yii-powered application.</p>
+                <p class="lead">The only skills you need to be an entrepreneur: an ability to fail, an ability to have ideas, to sell those ideas, to execute on those ideas, and to be persistent so even as you fail you learn and move onto the next adventure." — James Altucher</p>
 
                 <div class="row center">
                 <a href="index.php?r=site%2Flogin" id="download-button" class="btn-large waves-effect waves-light orange">Get started</a>
@@ -43,7 +48,7 @@ $this->title = 'Go EU';
                 </div>
             </div>
             
-            <div class="jumbotron">
+            <div class="jumbotron jumbotron3">
 
                 <div class="container">
                        <div class="jumbotron-images">
@@ -51,7 +56,7 @@ $this->title = 'Go EU';
                 </div>
                 <h1>Congratulations! 3</h1>
 
-                <p class="lead">You have successfully created your Yii-powered application.</p>
+                <p class="lead">The only skills you need to be an entrepreneur: an ability to fail, an ability to have ideas, to sell those ideas, to execute on those ideas, and to be persistent so even as you fail you learn and move onto the next adventure." — James Altucher</p>
 
                 <div class="row center">
                 <a href="index.php?r=site%2Flogin" id="download-button" class="btn-large waves-effect waves-light orange">Get started</a>
