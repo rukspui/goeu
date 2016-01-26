@@ -125,7 +125,7 @@ use yii\widgets\Breadcrumbs;
           <p class="grey-text lighten-4"></p>
           <div class="input-field col4">
           <input id="email" type="email" class="validate">
-          <label for="email">to our newsletter</label>
+          <label for="email" data-error="wrong" data-success="right">to our newsletter</label>
           </div>
         </div>
           
