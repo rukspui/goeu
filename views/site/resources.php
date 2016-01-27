@@ -14,21 +14,56 @@ $this->params['breadcrumbs'][] = $this->title;
 		<input type="text" class="searchQuery" placeholder="Video keywords... (ex: music, science etc.)" />
 			<button onclick="getAllClips()"  class="btn btn-primary" waves-effect waves-light orange>Get clips</button>
 
-			<div id="tedVideoResults" class="tedVideoResults">
+			<h4>TED</h4>
+                        <div id="tedVideoResults" class="tedVideoResults">
+                            <p>Nothing yet :(</p>
 				<div class="resultsWrapper"></div>
 			</div>
 
 			<br>
 			
+                        <h4>VSauce</h4>
 			<div id="vsauce" class="tedVideoResults">
+                            <p>Nothing yet :(</p>
 				<div class="resultsWrapper"></div>
 			</div>
+                        
+                        <br>
+			
+                        <h4>Veritasium</h4>
+			<div id="veritasium" class="tedVideoResults">
+                            <p>Nothing yet :(</p>
+				<div class="resultsWrapper"></div>
+			</div>
+                        
+                        
+                            <br>
+			
+                        <h4>C.G.P. Grey</h4>
+			<div id="cgp" class="tedVideoResults">
+                            <p>Nothing yet :(</p>
+				<div class="resultsWrapper"></div>
+			</div>
+                        
+                        
+                        
+                                <br>
+			
+                        <h4>Smarter Everyday</h4>
+			<div id="smarter" class="tedVideoResults">
+                            <p>Nothing yet :(</p>
+                            <div class="resultsWrapper">
+                                
+                            </div>
+			</div>
+                        
+                        
 		</div>
 		<div class="youtubeVideoModal">
 
-
-
 		</div>
+                
+               
 
 	</div>
 </div>

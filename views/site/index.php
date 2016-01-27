@@ -6,6 +6,7 @@ $this->title = 'Go EU';
 ?>
 <div class="site-index">
 
+
     
     <div class="front-carousel">
         <div class="carousel-init">

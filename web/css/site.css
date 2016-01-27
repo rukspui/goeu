@@ -138,7 +138,20 @@ div.youtubeResult span.title {
     height: 220px;
     overflow-y: hidden;
     background: #000;
+    text-align: center;
+
 }
+
+.tedVideoResults p{
+
+    position:absolute;
+    padding-top: 70px;
+    font-size: 50px;
+    padding-left: 300px;
+    color:#929FA6;
+
+}
+
 
 .nav-wrapper img{
     max-width: 200px;
@@ -151,14 +164,7 @@ div.youtubeResult span.title {
 }
 
 .jumbotron
-{
-    
+{ 
     background: linear-gradient(#253640, white);
-
 }
 
-
-
-.jumbotron-images {
-background-image: url("images/graph.png");
-}
