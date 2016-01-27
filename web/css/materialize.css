@@ -5283,9 +5283,9 @@ ul.tabs li.tab {
   display: inline-block;
   position: relative;
   z-index: 1;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   padding: 0;
   background-color: #2196F3;
   -webkit-border-radius: 50%;
@@ -5355,6 +5355,7 @@ li.divider {
  */
 .waves-effect {
   position: relative;
+      margin-bottom: 40px;
   cursor: pointer;
   display: inline-block;
   overflow: hidden;
@@ -7215,9 +7216,9 @@ ul.table-of-contents a {
   
   .slick-dots li button {
       border: none;
-      box-shadow: none;
       text-indent: -9999px;
       background-color: #8b999e !important;
+      
   }
    .slick-dots li button:focus,
    .slick-dots li button:active,
