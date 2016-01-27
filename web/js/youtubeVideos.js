@@ -158,15 +158,6 @@ function openVideo(id) {
     
 }
 
-function openVideo1(id) {
-    console.log(id);
-    var playerTemplate = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + id + '" frameborder="0" allowfullscreen></iframe>';
-    $('.youtubeVideoModal1').empty();
-    $('.youtubeVideoModal1').append(playerTemplate);
-    $('.youtubeVideoModal1').show();
-    
-}
-
 
 function getAllClips() {
   getTedYoutubeVideos();

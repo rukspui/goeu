@@ -98,13 +98,16 @@ $this->params['breadcrumbs'][] = $this->title;
       <input type="checkbox" id="text" />
       <label for="text">text</label>
     </p>
-<button type="submit" class="btn btn-primary" name="login-button">Surprise me</button>
+    
+<button onclick="openVideo();" class="btn btn-primary" >Surprise me</button>
+<div class="youtubeVideoModal"></div>
   </form>
    
 
-		<div class="youtubeVideoModal1">
 
-		</div>
 </div>
 </div>
 </div>
+
+<script src="js/youtubeVideos.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=init"></script>
