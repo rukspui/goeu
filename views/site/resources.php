@@ -16,9 +16,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
 			<h4>TED</h4>
                         <div id="tedVideoResults" class="tedVideoResults">
-                            <p>Nothing yet :(</p>
+                            <p>Nothing yet :(</p> 
 				<div class="resultsWrapper"></div>
 			</div>
+                        <div class="youtubeVideoModal"></div>
+		
 
 			<br>
 			
@@ -27,6 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             <p>Nothing yet :(</p>
 				<div class="resultsWrapper"></div>
 			</div>
+                        <div class="youtubeVideoModal"></div>
                         
                         <br>
 			
@@ -35,6 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             <p>Nothing yet :(</p>
 				<div class="resultsWrapper"></div>
 			</div>
+                        <div class="youtubeVideoModal"></div>
                         
                         
                             <br>
@@ -44,6 +48,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             <p>Nothing yet :(</p>
 				<div class="resultsWrapper"></div>
 			</div>
+                        <div class="youtubeVideoModal"></div>
                         
                         
                         
@@ -56,12 +61,11 @@ $this->params['breadcrumbs'][] = $this->title;
                                 
                             </div>
 			</div>
+                        <div class="youtubeVideoModal"></div>
                         
                         
 		</div>
-		<div class="youtubeVideoModal">
 
-		</div>
                 
                
 
