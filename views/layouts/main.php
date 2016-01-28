@@ -144,36 +144,9 @@ use yii\widgets\Breadcrumbs;
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+   <script src="js/search.js"></script>
   
-  <script>
-      $(".search-toggle").click(function() {
-          $(".search-wrapper").slideToggle().toggleClass("active");
-          
-          return 0;
-      });
-      
-      $(window).scroll(function() {    
-        var scroll = $(window).scrollTop();
-        var wrapper = $(".search-wrapper");
-        
-        if (scroll > 64) {
-            wrapper.slideUp();
-        }
-        
-//        if (scroll <= 64) {
-//            wrapper.slideDown();
-//        }
-      });
-      
-      $(".front-carousel .carousel-init").slick({
-          dots: true,
-          fade: true,
-          nextArrow: false,
-          prevArrow: false
-      });
-      
-      $(".slick-dots li button").addClass("btn-floating waves-effect waves-light red");
-  </script>
+
   
   <?php $this->endBody() ?>
   </body>

@@ -153,8 +153,28 @@ div.youtubeResult span.title {
 }
 
 
+@media only screen and (max-width : 992px) {
+    .tedVideoResults p{
+        padding-left: 200px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width : 800px) {
+    .tedVideoResults p{
+        padding-left: 50px;
+
+        font-size: 20px;
+    }
+    
+}
+
+
 .nav-wrapper img{
     max-width: 200px;
+    padding-left: 20px;
 }
 
 .youtubeVideoModal iframe{
